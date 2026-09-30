@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="backend.php">
+    <div>
+    <label for="name"> Name::</label>
+    <input type="text" id="name">
+   </div>
+   <br>
+    <div>
+    Role: <input type="text">
+   </div>
+   <br>
+   <div>
+    ROllno: <input type="number" >
+   </div>
+   <br>
+   <div> 
+    Email: <input type="email">
+    </div>
+
+    <br>
+   <div> 
+   DAte: <input type="date" name="mydate">
+   <!-- datetime-local can megre both date and time -->
+   Time: <input type="time" name="mydate">
+    </div>
+  
+  
+<!-- =======================for select every or not============= -->
+    <!-- <br>
+    <div> 
+    Gender: Male:  <input type="radio" value="myGender">  Female:  <input type="radio" value="myGender">  Other: <input type="radio" value="myGender">
+    </div> -->
+
+<!-- ========================================for one select from any====================== -->
+    <label >Gender:</label>
+    <input type="radio" name="gender" id="male">
+    <lable align="center " for="male">Male</lable>
+
+     <input type="radio" name="gender" id="female">
+    <lable for="female">Female</lable>
+
+     <input type="radio" name="gender" id="male">
+    <lable  for="other">Other</lable>
+
+
+    <br>
+    <div> 
+    Write about yourself.. <textarea name="myarea" rows="1" cols="100"></textarea>
+    </div>
+    
+
+    <br>
+   <div> 
+       <label for="eligible?">Are you eligible?</label>
+       <input type="checkbox" name="MyEligibility" id="eligible?" >
+    </div>
+    
+    
+    <br>
+    <div> 
+   <label for="car">CAr</label>
+   <select name="myCAr" id="car">
+    <option value="mhr">mehran</option>
+    <option value="sft">swift</option>
+    <option value="toyo">toyota</option>
+</select>
+    </div>
+    
+    <br>
+    <div> 
+    <input type="submit" value="submit now" >
+    <input type="reset" value="reset now">
+    </div>
+   </form>
+</body>
+</html>
